@@ -90,7 +90,7 @@ const Home = () => (
             rightIcon={<ChevronRightIcon />}
             colorScheme="teal"
           >
-            My portfolio
+            My portfolio.
           </Button>
         </Box> */}
       </Section>
