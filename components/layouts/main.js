@@ -37,9 +37,9 @@
 
 // components/layouts/main.js
 import Head from "next/head";
-import Navbar from "../navbar";
+import Navbar from "../Navbar";
 import { Box, Container } from "@chakra-ui/react";
-import Footer from "../footer";
+import Footer from "../Footer";
 
 const Main = ({ children }) => {
   return (
