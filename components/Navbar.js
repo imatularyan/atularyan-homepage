@@ -7,11 +7,9 @@ import {
   Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
-import ThemeToggleButton from "./Theme-toggle-button";
+import ThemeToggleButton from "./theme-toggle-button";
 
-const Navbar = (props) => {
-  const { path } = props;
-
+const Navbar = () => {
   return (
     <Box
       position="fixed"
@@ -20,7 +18,6 @@ const Navbar = (props) => {
       bg={useColorModeValue("#ffffff40", "#20202380")}
       css={{ backdropFilter: "blur(10px)" }}
       zIndex={2}
-      {...props}
     >
       <Container
         display="flex"

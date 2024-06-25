@@ -28,8 +28,8 @@
     "pages/index.js",
     "pages/_app.js",
     "components/BlogPost.js",
-    "components/Footer.js",
-    "components/Navbar.js",
+    "components/footer.js",
+    "components/navbar.js",
     "components/Animate.js"
   ],
   "exclude": ["node_modules"]

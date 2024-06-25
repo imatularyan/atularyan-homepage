@@ -10,11 +10,11 @@ import {
 } from "@chakra-ui/react";
 import Layout from "../components/layouts/article";
 import Image from "next/image";
-import Section from "../components/Section";
+import Section from "../components/section";
 import Paragraph from "../components/Paragraph";
 import NextLink from "next/link";
 import { ChevronRightIcon, EmailIcon } from "@chakra-ui/icons";
-import { BioSection, BioYear } from "../components/Bio";
+import { BioSection, BioYear } from "../components/bio";
 import {
   IoLogoTwitter,
   IoLogoInstagram,
@@ -62,8 +62,8 @@ const Home = () => (
             <Image
               src="/images/atul.jpg"
               alt="Profile image"
-              width="100"
-              height="100"
+              width={100}
+              height={100}
             />
           </Box>
         </Box>
