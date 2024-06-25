@@ -8,13 +8,13 @@ import {
   List,
   ListItem,
 } from "@chakra-ui/react";
-import Layout from "../components/layouts/article";
 import Image from "next/image";
-import Section from "../components/section";
+import Layout from "../components/layouts/article";
+import Section from "../components/Section";
 import Paragraph from "../components/Paragraph";
 import NextLink from "next/link";
 import { ChevronRightIcon, EmailIcon } from "@chakra-ui/icons";
-import { BioSection, BioYear } from "../components/bio";
+import { BioSection, BioYear } from "../components/Bio";
 import {
   IoLogoTwitter,
   IoLogoInstagram,
@@ -35,7 +35,6 @@ const Home = () => (
       >
         Hello, I&apos;m a software engineer based in India!
       </Box>
-
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">

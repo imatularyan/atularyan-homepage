@@ -1,4 +1,4 @@
-import Logo from "./logo";
+import Logo from "./Logo";
 import {
   Container,
   Box,
@@ -7,7 +7,7 @@ import {
   Flex,
   useColorModeValue,
 } from "@chakra-ui/react";
-import ThemeToggleButton from "./theme-toggle-button";
+import ThemeToggleButton from "./Theme-toggle-button";
 
 const Navbar = () => {
   return (
