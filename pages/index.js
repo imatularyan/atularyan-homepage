@@ -105,8 +105,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Completed the Bachelor&apos;s Program in the Graduate School of
-          Computer Science at Maharashtra Institute of Technology
+          Completed the Bachelor&apos;s Program in Computer Science at
+          Maharashtra Institute of Technology
         </BioSection>
         <BioSection>
           <BioYear>2023 to present</BioYear>
