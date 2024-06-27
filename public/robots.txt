@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.atularyan.online/
+
+# Sitemaps
+Sitemap: https://www.atularyan.online/sitemap.xml
