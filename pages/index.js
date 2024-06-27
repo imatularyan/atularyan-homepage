@@ -94,7 +94,6 @@ const Home = () => (
           </Button>
         </Box> */}
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
@@ -113,7 +112,6 @@ const Home = () => (
           Working as a freelancer
         </BioSection>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           On the web
