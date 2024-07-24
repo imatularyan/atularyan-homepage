@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Atul Aryan
+              Atul Aryan
           </Heading>
           <p>Tech Craftsman ( Developer / Problem Solver )</p>
         </Box>
