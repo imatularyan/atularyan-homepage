@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: "flex" }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-              Atul Aryan
+            Atul Aryan
           </Heading>
           <p>Tech Craftsman ( Developer / Problem Solver )</p>
         </Box>
@@ -99,7 +99,7 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1998</BioYear>
+          {/* <BioYear>1998</BioYear> */}
           Born in Bihar, India.
         </BioSection>
         <BioSection>
